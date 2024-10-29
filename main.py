@@ -11,7 +11,6 @@ from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.metrics import roc_auc_score, roc_curve
-from utils.utils import *
 from load_data import *
 from dependent_stacking_updated.stacked_w_MM import StackedModel
 from joblib import Parallel, delayed
